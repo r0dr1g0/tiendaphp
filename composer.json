@@ -1,0 +1,19 @@
+{
+    "name": "r0dr1g0/tienda",
+    "description": "sistema para una tienda",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files":[
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Mamani Achocalla",
+            "email": "r0dr1-g0@outlook.es"
+        }
+    ],
+    "require": {}
+}
