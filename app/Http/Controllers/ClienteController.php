@@ -7,24 +7,24 @@ class ClienteController
     function index()
     {
         echo '<p>listar clientes</p>';
-        return new \App\Http\Response('cliente');
+        return view ('cliente');
     }
 
     function new()
     {
         echo '<p>nuevo cliente</p>';
-        return new \App\Http\Response('nuevoCliente');
+        return view('nuevoCliente');
     }
 
     function edit()
     {
         echo '<p>editar cliente</p>';
-        return new \App\Http\Response('editarCliente');
+        return view ('editarCliente');
     }
 
     function delete()
     {
         echo '<p>eliminar cliente</p>';
-        return new \App\Http\Response('eliminarCliente');
+        return view ('eliminarCliente');
     }
 }

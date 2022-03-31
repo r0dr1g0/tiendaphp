@@ -13,6 +13,7 @@ class Response
 
     function send()
     {
-        echo 'enviar como respuesta la vista ' . $this->view;
+        $content = file_get_contents(__DIR__ .'/../../views/'.$this->view.'php');
+        require __DIR__.'/../../views/Layout.php';
     }
 }
