@@ -1,7 +1,11 @@
 <?php
 namespace App\Models;
+class Base{
+    function saludar(){
 
-class Cliente
+    }
+}
+class Cliente extends Base
 {
     public $id;
     public $nombre;

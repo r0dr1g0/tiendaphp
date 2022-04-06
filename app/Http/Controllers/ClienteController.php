@@ -6,6 +6,7 @@ class ClienteController
 {
     function index()
     {
+        $cliente = new \App\Models\
         echo '<p>listar clientes</p>';
         return view ('cliente');
     }

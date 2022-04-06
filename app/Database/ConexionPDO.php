@@ -10,7 +10,7 @@ class ConectionPDO
             $dsn = 'mysql:dbname=dbtienda;host=localhost';
             $username = 'root';
             $password = '';
-            $conection = new \PDO('',$username,'');
+            $conection = new \PDO($dsn,$username,$password);
             return $conection;
         }
         catch{
