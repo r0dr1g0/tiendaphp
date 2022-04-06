@@ -1,5 +1,5 @@
 {
-    "name": "r0dr1g0/tienda",
+    "name": "r0dr1g0/tiendaphp",
     "description": "sistema para una tienda",
     "autoload": {
         "psr-4": {
